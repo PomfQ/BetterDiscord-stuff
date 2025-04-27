@@ -1,0 +1,49 @@
+/**
+ * @name VHS
+ * @author Marshal
+ * @version 1.0.0
+ * @description Dull theme
+ * @authorId 725560508371173377
+ * @source https://github.com/Qxincess/BetterDiscord-extensions/tree/main/Themes/VHS
+*/
+
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+@import url("https://Qxincess.github.io/BetterDiscord-extensions/Themes/VHS/VHS.theme.css");
+
+
+:root{
+
+    /*HorizontalServersList settings*/
+
+    --HSL-server-icon-size: 40px;  /* Size of the server icons | DEFAULT: 40px */
+    --HSL-server-spacing: 10px;  /* Spacing between each server icon | DEFAULT: 10px */
+    --HSL-server-direction: column; /* Direct of the server list. | Options: column, column-reverse | DEFAULT: column */
+
+    /*Background*/
+    --background-image : url('https://cdn.discordapp.com/attachments/1264627993477906584/1302224370294591550/image4.png?ex=67cd7374&is=67cc21f4&hm=bacc89bfe2076ceb271985f1a88f37ab0ff58ac2c84c9a1033b311b7349ea499&'); /*Default theme background credits : Aligator64 */
+    --app-blur : 5px;
+    --background-primary: rgba(24, 24, 24, 0.178) !important;
+    --background-secondary: rgba(26, 26, 26, 0.315) !important;
+    --background-modifier-hover : rgba(20, 20, 20, 0.500);
+    --box-shadow : 0 0 10px 0px;
+
+    /*Font*/
+    
+    --font-display: var(--font-primary);
+    --font-primary: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    /*Status customizer*/
+
+    --Online: rgb(73, 146, 255);
+	--Do-not-disturb: rgb(255, 72, 72); 
+	--Idle: rgb(255, 175, 4);
+
+    /*Typing customizer*/
+
+    --content: "Is writing some big words.";
+
+    /*Others*/
+
+    --mentioned-bg : rgba(44, 16, 70, 0.452);
+    --mentioned-line: linear-gradient(60deg, rgba(126, 18, 214, 0.733), rgba(216, 39, 178, 0.705));
+}
